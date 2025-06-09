@@ -12,6 +12,7 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    
 }
 
 header{
@@ -21,10 +22,11 @@ header{
     height: 25px;
     padding: 20px 10%;
     background: #beebb5 ;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     color: white;
+    white-space: nowrap;
     
 }
 
@@ -44,24 +46,29 @@ li a{
 
 section.hero{
     display: flex;
-    height: 40%;
+    max-height: fit-content;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-color: #BEEBB5;
-    margin-top: 40px;
     gap: 16px;
+    flex: 0;
+    flex-wrap: wrap;
+    
 }
 
 .hero-content{
-    padding-left: 10%;
+    padding: 10%;
     display: flex;
-    
-
+    flex-wrap: wrap;
 }
 
-
+.hero-text{
+    flex: 1 1 50%;
+    align-self: center;
+    
+}
 
 .hero h1{
     
@@ -70,8 +77,31 @@ section.hero{
 }
 
 .hero p{
-    width: 50%;
+    width: 60%;
     color: white;
     font-size: 18px;
+    line-height: 1.4;
+    margin-top: 16px;
     
+    
+}
+
+.hero-text button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #657D60;
+    border: 2;
+    border-color: white;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: #beebb5;
+    color: white;
+}
+
+button:hover{
+   background-color: #BEEBB5 ;
+}
+
+img{
+    align-self: center;
 }

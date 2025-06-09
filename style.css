@@ -241,6 +241,7 @@ blockquote span{
     box-shadow: #beebb5;
     color: white;
     align-self: center;
+    margin-left: 15px;
 }
 
 button:hover{
@@ -262,4 +263,15 @@ button:hover{
 .newsletter-text p span{
     color: #657D60;
     font-weight: 300;
+}
+
+footer{
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 12px;
 }

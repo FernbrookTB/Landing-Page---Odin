@@ -206,3 +206,60 @@ blockquote span{
     line-height: 1.4;
     
 }
+
+.newsletter{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#657D60, #BEEBB5);
+    
+
+}
+
+.newsletter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px;
+    border-radius: 8px;
+    width: 40%;
+    gap: 16px;
+    margin: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.newsletter-content button{
+    
+    
+    background-color: #657D60;
+    border: 2;
+    border-color: white;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: #beebb5;
+    color: white;
+    align-self: center;
+}
+
+button:hover{
+   background-color: #BEEBB5 ;
+   cursor: pointer;
+}
+
+.newsletter-text{
+    color: white;
+    line-height: 1.4;
+    padding:20px;
+}
+
+.newsletter-text h3 span{
+    color: #657D60;
+    font-weight: 300;
+}
+
+.newsletter-text p span{
+    color: #657D60;
+    font-weight: 300;
+}

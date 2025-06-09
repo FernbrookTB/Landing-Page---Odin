@@ -50,6 +50,13 @@ li a{
     color: #657D60;
 }
 
+li a:hover{
+    color: white;
+    transition-delay: 0.3ms;
+
+}
+
+
 .nav-links li{
     list-style: none;
     display: inline-block;
@@ -124,6 +131,7 @@ section.hero{
 button:hover{
    background-color: #BEEBB5 ;
    cursor: pointer;
+   transition-delay: 0.3ms;
 }
 
 .hero img{
@@ -247,6 +255,7 @@ blockquote span{
 button:hover{
    background-color: #BEEBB5 ;
    cursor: pointer;
+   transition-delay: 0.3ms;
 }
 
 .newsletter-text{

@@ -12,7 +12,7 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    
+    background-color: #BEEBB5;
 }
 
 header{
@@ -21,7 +21,8 @@ header{
     align-items: center;
     height: 25px;
     padding: 20px 10%;
-    background: #beebb5 ;
+    background:#beebb5c0 ;
+    backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
     width: 100%;
@@ -31,9 +32,22 @@ header{
 }
 
 
+.logo{
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.logo span{
+    color: #657D60;
+    
+}
+
+
 li a{
     text-decoration: none;
-    color: white;
+    color: #657D60;
 }
 
 .nav-links li{
@@ -41,6 +55,7 @@ li a{
     display: inline-block;
     padding: 20px;
     font-size: 14px;
+    font-weight: 300;
     
 }
 
@@ -51,7 +66,7 @@ section.hero{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: #BEEBB5;
+    background: linear-gradient(#BEEBB5, #657D60);
     gap: 16px;
     flex: 0;
     flex-wrap: wrap;
@@ -68,6 +83,11 @@ section.hero{
     flex: 1 1 50%;
     align-self: center;
     
+}
+
+.hero-text span{
+    color: #657D60;
+    font-weight: 300;
 }
 
 .hero h1{
@@ -100,8 +120,37 @@ section.hero{
 
 button:hover{
    background-color: #BEEBB5 ;
+   cursor: pointer;
 }
 
-img{
+.hero img{
     align-self: center;
+    box-shadow: 0 4px 10px;
+    
+}
+
+section.main-content{
+    text-align: center;
+    padding: 60px 20px;
+    height: fit-content;
+     background: linear-gradient(#657D60, #BEEBB5);
+
+}
+
+.main-content h2{
+    margin-bottom: 50px;
+
+}
+
+.info-images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+    
+}
+
+.info-image1{
+    height: ;
 }
